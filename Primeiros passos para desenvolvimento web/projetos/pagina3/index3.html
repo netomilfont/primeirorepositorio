@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro site em JavaScript! Woohoo!</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="//code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
+</head>
+<body>
+
+        <div id = "accordion">
+            <h3>Parte 1</h3>
+            <div> 
+                <p> Aqui dentro você pode escrever qualquer coisa que você quiser,
+                pois ficará dentro da section. </p>
+            </div>
+            <h3>Parte 2</h3>
+            <div>
+                <p> Pode ficar outra parte do texto que você queira escrever. </p>
+            </div>
+            <h3>Parte 3</h3>
+                <div>
+                <p> Fim do texto, conclusão! Algo que tb dá pra escrever dentro. </p>
+                <ul>
+                    <li>Item um</li>
+                    <li>Item dois</li>
+                    <li>Item 3</li>
+                </ul>
+            </div>
+        </div>
+
+        <script>
+        $("#accordion").accordion();
+        </script>
+
+        <script>
+            $(document).ready(function(){
+                alert("Whoohoo!")
+            });
+        </script>
+    
+</body>

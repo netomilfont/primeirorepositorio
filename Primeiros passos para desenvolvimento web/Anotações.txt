@@ -1,0 +1,341 @@
+## História da Internet
+
+- 1969. EUA. Arpanet. Departamento de Defesa. Acontecendo na epoca da Guerra Fria. Interligar laboratório. Primeiro e=mail.
+- 1982. Universidades. Holanda, Dinamarca e Suécia.
+- 1987. Foi liberado o uso comercial nos EUA.
+- 1992. CERN cria a World Wide Web. Tendo dados acessíveis a qualquer pessoa que possuía acesso a internet.
+
+
+
+
+
+
+## História da Internet no Brasil
+
+- 1988. FAPESP, UFRJ e LNCC fizeram um acordo pra vir ao Brasil
+- 1994. Uso comercial. EMBRATEL.
+- Conexão discada
+- 2000. Ano em que chegou a Banda Larga.
+
+
+
+
+
+
+
+## Internet Atualmente
+
+- 134 milhões de brasileiros têm acesso a internet (75%)
+	- Há 10 anos, apenas 41%
+
+- TV: 37%
+
+**Frequência:**
+Todo dia:90%
+Pelo menos uma vez por semana: 9%
+Pelo menos uma vez por mês: 2%
+
+**Na pandemia:**
+112% de aumento do começo até setembro
+
+
+
+
+
+
+## Como funciona a Internet
+
+O que são redes?
+
+Backbone
+
+- Espinha dorsal
+- Costelas
+- Poucas espalhadas pelo mundo que gerenciam o trafego na internet
+
+Provedor de acesso
+
+- Empresas telefônicas
+- Contratam o sinal do backbone e o repassam para o usuário final
+
+	Proveem serviços: Dial-up, ADSL (banda larga), Fibra ótica, rádio, satélite, móvel e p2p*(peer to peer).
+
+Caminho inverso
+
+- www
+- DNS
+- IP
+- Classes de redes
+- 127.0.0.1 (local host/endereço do computador)
+
+
+
+
+
+
+## TCP/IP, portas, roteadores, switches e modems
+
+TCP/IP
+
+- Protocolos de comunicação entre computadores em rede
+	- Transmission Control Procotol - Procolo de Controle de Transmissão
+	- Internet Protocol - Protocolo de Internet
+- Modelo de camadas
+	- 4 camadas:
+		1. Física (ex: placa de rede)
+		2. Rede (ex: IP)
+		3. Transporte (ex: TCP, UDP)
+		4. Aplicação (ex: FTP, SMTP, HTTP)
+
+- Diferença entre TCP X UDP
+	UDP: - Rápido; Não Confiável; Carro do ovo; Livestream
+	TCP: - Voltado à conexão; Handshake; Integridade, ordem de dados; Aplicativo de mensagens de texto
+
+PORTAS
+
+- As portas por onde dados sairão e chegarão
+- 20: FTP (Envio de arquivos)
+- 22: SSH (Conexão segura entre computadores)
+- 25: SMTP (Envio de emails)
+- 53: DNS (Tradudor de nome pra ip)
+- 80: HTTP (Requisição simples da internet)
+- 443: HTTPS (Requisão segura da internet)
+
+MODEM
+
+- MOdulator-DEModulator
+- Hardware que converte dados em formado que possa ser transmmitido de um computador e lido por outro.
+
+ROTEADOR
+
+- Distribui internet para um ou mais dispositivos de uma rede
+- Pode fazer a comunicação entre redes
+- Pode ser "burro"
+
+SWITCH
+
+- Distribui internet para um ou mais dispositivos de uma rede
+- Criado para ser "inteligente"
+
+
+
+
+
+
+
+## Celular, internet e outros dipositivos
+
+SMS
+
+- Quanto custa uma operadora de telefonia móvel, enviar um SMS? 0. Nada.
+- O celular troca, naturalmente, alguns bits com as torres de comunicação.
+
+MMS
+
+- Transmissão de mensagens multimídia (aúdio, vídeo) por meio de uma espeécie de conexão de dados primitiva.
+
+Conexões móveis
+	- 1G (analógico):10Kbps
+	- 2G (digital) (GSM (Global Sustem for Mobile Communication)): 97Kbps
+	- GPRS (Generel Pocket Radio Service) / "2,5G": 32-80 Kpbs - dados + voz
+	- EDGE (Enhanced Data Rates for GSM Evolution) / "2,75G":128-236Kbps
+	- 3G (Mbps), 4g (22,1Mbps), 5g(10Gbps)
+
+WI-FI
+
+- IEE 802.11: 2,4 GHz, 2Mpbs
+- IEE 802.11a: 5 GHz, 54Mpbs
+- IEE 802.11b: 2,4 GHz, 11Mpbs (diminuição de interferência)
+- IEE 802.11g: 2,4 GHz, 54Mpbs
+- IEE 802.11n: 2,4 GH/5 GHz, 150-600Mbps
+
+SEGURANÇA
+
+- WEP: Chaves de 64 bits e de 128 bits
+- WPA: Chave trocada periodicamente
+- WPA2: (AES) (802.11i)
+	- + segurança
+	- + processamento
+
+DISPOSITIVOS NA REDE
+
+- Impressora
+- Scanner
+- Chromecast
+
+BLUETOOTH
+
+- Conexão ponto-a-ponto (não depende da internet)
+Versão / Taxa de transmissão
+1.2 1 - Mbps
+2.0+EDR - 3Mbps
+3.0 - 24Mbps
+4.0 - 25Mbps
+5.0 - 50Mpbs
+
+
+
+
+## Browser, sites, aplicativos e webserver
+
+BROWSER
+
+- Existem muitas formas de acessar sem browser, mas para ver um site, é preciso um programa que intereprete
+  as linguagens de programação (LP) e as transforme em algo compreensível por um humano
+
+Caracteristicas:
+- Sabe identificar várias LP, linguagens de marcação e conteúdo multimedia
+- Hoje, os browsers fazem muito mais que isso: existem plug-ins, ou add-ons, que ajudam na navegação
+- Cache e cookies
+
+Página estática x dinâmica
+
+SITE
+
+- Página da internet
+- Diversos propósitos
+- Podem ser feitas em diversas LP
+- D/XHTML caindo em desuso
+
+APLICATIVO
+
+- É um software que é executado no navegador
+- Um aplicativo de celular, muitas vezes, anada mais é doque uma espécie de navegador
+- Hoje em dia, já quase não existe diferença entre site e aplicativo, e o primeiro está em declínio
+- Outra diferença terminológica que está sumindo é entre programa/software e aplicativo
+
+E-COMMERCE
+
+- "e", assim como em "e-mail", significa "eletronic"
+- Comércio eletrônico
+- Site de compra e venda com sistema de pagamento
+- O sistema de pagamento pode ser exterior ao site
+- PicPay, Boleto, PagSeguro, PayPal, Mercado Pago...
+
+
+WEB-SERVER
+
+- Existem 2 tipos: estático e dinâmico
+- O estático é um servidor físico onde são armazenados arquivos, softwares e/ou banco de dados
+- O dinâmico se refere aos softwares que estão presentes no servidor físico
+
+O dinâmico pode ser pra armazenar arquivos (file server), aplicações (application server), banco de dados(data base)
+e tudo junto e misturado.
+
+Um site, ou aplicat ico, precisa estar hospedado em um servidor para ser acessado
+- Os dados de um site precisam estar em um servidor
+- O banco de dados de um site ou aplicativo precisa estar em um servidor
+
+WEB-SERVICE
+
+- Interface disponível para fazer resquisições e consultas em bancos de dados inacessíveis (Correios, Governo)
+
+
+
+
+
+## O que são Stacks
+
+STACKS
+
+- Pilhas de tecnologia
+- Conjunto de softwares necessários e suficientes para executar um programa/aplicativo
+- Linguagens de programação
+- Ambientes e ferramentas de interação com o app/sw
+- Capacidade e limitação de performance
+- Pontos fortes e fracos do app/sw
+
+Importância
+
+- Os líderes de projetos precisam das informações das equipes de desenvolvimento
+- Os desenvolvedores precisam saber as limiitações e capacidades das ferramentas e ambentes que têm disponiveis
+- Sis temas, bancos de dados, linguagens de programação, protocolos de comunicação
+- Estratéfia de negócios
+- Maturidade
+- Contratações, planos de mitigações de riscos, aumento da capacidade, uso de dados
+
+FRONTE-END
+
+- "Parte da frente"
+- Sote, software, aplicativo, web service
+- Interface, UI (User interface), UX (User experience)
+- Lógica de programação, HTML, CSS, jQuery/JS/AJAX,PHP,Bootstrap/ outros frameworks
+
+BACK-END
+
+- "Parter de trás"
+- Servidores, bancos de dados
+- "meio-de-campo" entre interface e bancos de dados, regras de negócios, validações
+- MySQL, Oracle, protocolos de comunicação, PHP, Java, node.js
+
+FULL STACK
+
+- Profissional que sabe trabalhar em todas as camadas das tecnologias de desenvolvimento/execução de um app/sw
+
+
+
+
+
+## LPs e termos
+
+PRINCIPAIS LINGUAGENS
+
+- HTML (não é de programação)	- Java
+- CSS (não é de programação)	- Python
+- JavaScript			- Perl
+- PHP				- C/C++/C#
+- .NET				- Ruby (on Rails)
+- ASP				
+
+TERMOS COMUNS
+
+- 404 (Quando a página não exite)
+- Algoritmo (Sequência de passos para executar uma tarefa)
+- ALT (Texto alternativo)
+- API (Espécie de funcionalidade a mais para executar outras funções)
+- Aplicação
+- Back-end
+- Biblioteca/dll (Conjunto de ferramentas disponíveis)
+- Bootstrap (Frameworks de JavaScript)
+- Breakpoints (Envolve proporções de pontos bases de dispositivos)
+- Browser/navegador
+- Bug
+- Cache
+- Código
+- Controle de versão (Software que controla versões)
+- Cookies
+- Debug (Resolver os bugs)
+- Deploy (Pacote de um software especifico)
+- Design adaptativo/responsivo (Site que se adequa a qualquer tipo de tela)
+- DNS (Domain Name System)
+- Documentação (Documentário no código)
+- Domínio
+- DPI (Proporção de pontos na tela)
+- Editor de texto
+- Estrutura de dados (Pilha, array, number, char...)
+- Favicon (Figura que representa o site)
+- Fontes (Fonte de letra)
+- Framework (Caixa de ferramentas disponiveis para desenvolver um software)
+- FTP (Protocolo de comunicação para troca de arquivo)
+- Full-stack
+- Fithub/SVN/CV (Controladores de versão)
+- IP (Número do dispositivo)
+- Linguagem
+- Meta tags (São algumas tags HTML que fica no header com função específica
+- Método ágil
+- MVC (Model view controler, arquitetura de software)
+- MVP (Minimal Viable Product, minimo do software que consegue fornecer para ser testado) 
+- MySQL (Linguagem de banco de dados)
+- Pixel (Picture com element)
+- Resolução (Quantidade de pixels que a tela tem)
+- Servidor
+- Sistema Operacional/SO
+- Solução
+- SSL (Camada de seguraça do site)
+- UI (User interface)
+- UX (User experience, usuário lida com o programa)
+- Versão
+- WYSIWYG (What you see What you get, pequenos editores de texto)
+
+
+
