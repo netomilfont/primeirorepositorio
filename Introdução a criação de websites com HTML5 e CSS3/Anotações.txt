@@ -1,0 +1,202 @@
+## Introdução ao curso de HTML
+
+ESTRUTURA BÁSICA
+
+O HTML foi criado em 1991 por Tim Berners-Lee para melhorar a comunicação entre ele e seus colegas de trabalho
+no CERN.
+- HTML 1- 1991
+- HTML 2 - 1995
+- HTML 3 - 1997
+- HTML 4 - 1997
+- HTML 5 - 2014
+
+ELEMENTO HTML
+
+O elemento é a base do HTML.
+Começa com uma tag de abertura
+Qual tipo de elemento
+O elemento tem um atributo
+O conteúdo
+E por fim, a tag de fechamento.
+
+ESTRUTURA BÁSICA
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta>
+  <title></title>
+</head>
+<body>
+</body>
+</html>
+
+
+TAGS
+
+<html> 
+A tag html é a raiz do seu documento, todos os elementos HTML devem estar dentro dela. 
+E nela nós informamos ao navegador qual é o idioma desse nosso documento, através do atributo lang, 
+para o português brasileiro usamos pt-BR.
+
+<head>
+A tag head contém elementos que serão lidos pelo navegador, como os metadados - um exemplo é o charset, 
+que é a codificação de caracteres e a mais comum é a UTF-8, o JavaScript com a tag script, 
+o CSS através das tags style e link - veremos a diferença quando falarmos sobre CSS 
+- e o título da página com a tag title.
+
+<body>
+E dentro da tag body colocamos todo o conteúdo visível ao usuário: textos, imagens, vídeos.
+
+
+
+
+
+## Entendendo o que é semântica
+
+SEMÂNTICA
+
+<section> (representa uma sessão generita de conteúdos)
+<header> (cabeçalho de uma página)
+<article> (representa um conteúdo relevante, como um artigo de um blog)
+<aside> (representa um conteúdo relacionado ao conteúdo principal da página)
+<footer> (rodapé da página ou de parte da página)
+<h1>-<h6> (importância do titulo)
+
+
+## Como usar textos e links no HTML
+
+TEXTOS E LINKS
+<h1> Título da página</h1>
+<h2> Título da seção
+<h3> Título do artigo
+<p> Conteúdo do artigo. (pode se adicionar vários tipos de conteúdo, texto, imatgens, videos, códigos.
+<a> Link (ele interliga vários conteúdos na web)
+	<a href="LINK"> LinkedIn</a>
+	<a href="netomilfont@hotmail.com"> E-mail</a>
+	<a target="_blank>Linl</a> (serve para indicar como ele vai ser aberto, ele diz pra abrir em uma nova aba)
+ 
+## Como inserir imagens em seu site
+
+TAG IMAG
+
+<img>
+<img src="link que vc quer">
+<img alt="Foto de alguém"> (mostra a descrição da foto quando a imagem não é reccaregada e funciona em leiteores de tela)
+
+LISTAS
+
+<ul>
+Item 1
+Item 2
+(reprenta uma lista em que a ordem dos itens não é importante)
+<ol>
+1. item1
+2. item2
+(representa uma lista em que a ordem os itens É IMPORTANTE)
+<li> É um item da lista
+
+
+
+
+
+## Introdução e conceitos básicos do CSS3
+
+INTRODUÇÃO AO CSS3
+
+- 1996 foi criada a linguagem de estilo chamada CSS3, regras de estilo para elementos ou grupos de elementos
+
+O que são seletores?
+A regra do CSS é formada por um seletor ou um grupo de seletores.
+seletores html {
+propriedade e um valor
+}
+
+ID X CLASSE
+
+<header id="header" class="header"></header>
+
+<header> class="header"></header>
+
+a classe é precedida por .
+e um ID é precedido por um #
+(um ID só pode ser usado uma vez na página)
+
+BOX MODEL 
+
+margin (espaçamento entre elementos)
+border(circulam o padding e o conteudo)
+padding(espaçamento entre a borda e o conteudo)
+conteúdo(texto, imagem ou video)
+
+padding: 10px(superior e inferior) 5px(esquerdo e direito);
+padding: 15px(topo) 10px(direita) 5px(inferior) 0(esquerdo); (quando temos um valor zero não precisa usar unidade)
+padding-top, padding-right, padding-bottom, padding-left;
+
+background-color:
+background-image:
+background-position:
+
+mozilladevellopernetwork (site pra estudar)
+
+border
+largura: pixels,centimetros,milimetros...
+cor: bluse,#0000ff...
+estilo:sólido, pontilhado, tracejada...
+solid, dotted e dashed
+
+LARGURA, ESTILO E COR
+border-width
+border-color
+border-style
+
+border-top-width
+border-top-color
+border-top-style
+
+border-radius: 10px
+border-radius: 50%
+border-radius: 10% 20% 30% 40%
+
+font-family: Verdana(altera a fonte do texto)
+font-family, Verdana, Arial;
+
+font-size (tamanho do texto)
+fontstyle (altera a aparencia, italic)
+font-weight (altera o peso do texto, normal, bold)
+
+text-transform(altera o texto entre maiscula e minuscula
+uppercase
+lowercase
+capitalize (todas as primeiras letras de cada palavra em maiuscula
+
+text-decoration underline (linha abaixo da palavra)
+		overline ( acima da palvra)
+		line-through (ao centro da palavra, cortando)
+
+ALTERAR O MARCADOR
+
+ul {
+list-style-type: square ( simbolo para quadrado)
+}
+ol{
+		upper-roman (numero romano)	
+}
+ul{
+		"\1F44D" (EMOJIS)
+}
+
+ul{
+		url("rocket.png")
+
+DIMENSÃO E ALINHAMENTO
+
+Width Largura
+Height Altura
+
+Max-width
+Max-height
+
+Margin
+
+Text-align
