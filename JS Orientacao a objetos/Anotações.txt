@@ -1,0 +1,48 @@
+## Orientação a objetos 
+
+IMPERATIVO - Sempre foca em como vai resolver os problemas
+DECORATIVO - Foca no que você vai fazer para resolver os problemas
+
+POO seria Imperativo
+
+
+Paradigmas - Os programas são "objetos" que possuem uma série de propriedades.
+
+Pilares: Herança
+	 Polimorfismo
+	 Encapsulamento
+	 Abstração
+
+
+Abstração => é um processo mental que consiste em isolar um aspecto determinado
+de um estado de coisas relativamente complexo, a fim de simplificar a sua
+avaliação, classificação ou para permitir a comunicação do mesmo.
+
+Herança => O objeto filho que herda propriedades e métodos do objeto pai.
+Mas os objetos filhos tem suas proprias caracteristicas.
+
+Encapsulamento => Cada classe tem propriedades e métodos independentes do
+restante do código.
+
+Polimorfismo => Objetos podem herdar a mesma classe pai, mas se comportarem
+de forma diferente quando invocamos seus métodos.
+
+
+OOJS Object Orientad JavaScript
+
+Protótipos 
+Todos os objetos de Javascript herdam propriedades e métodos e um prototype.
+O objeto Object.prototype está no topo desta cadeia.
+
+Cadeira de protótipos (prototype chain)
+Ela procura sempre até chegar no null.
+
+
+CLASSES
+Elas não existem nativamente. 
+Syntatic suugar: Uma sintaxe feita para facilitar a escrita.
+
+Javascript não possui classes nativamente. Todas as classes são objetos e a
+herança se dá por protótipos.
+
+o super vai mandar pra função pai os parametros que estão ali.

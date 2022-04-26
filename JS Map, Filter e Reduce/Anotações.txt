@@ -1,0 +1,67 @@
+## MAP
+
+Permite a você iterar sobre o array e modificar seus elementos usando 
+uma função.
+
+Cria um novo array
+Não modifica o array original
+Realiza as operações em ordem
+
+Sintaxe:
+
+array.map(callback, thisArg)
+	call back(item, index, array)
+
+Callback: função a ser executada em cada elemento
+thisArg(opcional): valor de 'this'dentro da função de callback
+
+
+
+
+MAP VS forEach
+
+Realiza uma operação em cada elemento do Array
+
+retorno: undefined sendo necessário por a função dentro de uma classe
+
+Valor de retorno
+Considere se o array auxiliar será necessário
+
+
+
+FILTER
+
+Apenas os elementos que satisfazem e passam com sucesso por uma validação.
+
+
+Cria um novo array
+Não modifica o array original
+
+Sintaxe:
+array.filter(callback, thisArg)
+
+Callback: função a ser executada em cada elemento
+thisArg(opcional): valor de 'this'dentro da função de call
+
+
+
+REDUCE
+
+Esse método executa uma função em todos os elementos do array, retornando um valor único
+
+Sintaxe:
+array.reduce(callbackFn, initialValue)
+
+Callback: função a ser executada a partir do acumulador
+initialValue: valor sobre o qual o retorno final irá atuar (optional)
+
+Dentro do callback: accumulator, currentValue, index, array
+
+Accumulator/prevValue: acumulador de todas as chamadas de callbackFn
+currentValue: elemento atual sendo acessado pela fução
+
+
+
+
+
+

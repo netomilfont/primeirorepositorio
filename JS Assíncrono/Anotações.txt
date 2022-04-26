@@ -1,0 +1,67 @@
+## JavaScript Assíncrono
+
+Assíncrono é algo que não ocorre ou não se efetiva ao mesmo tempo.
+
+O JS rida de maneira síncrona.
+
+No Assíncrono pode fazer diversas coisas ao mesmo tempo.
+
+
+
+
+PROMISES
+
+É um objeto de processamento assíncrono. Inicialmente, seu valor é
+desconhecido. Ela pode, então, ser resolvida ou rejeitada.
+
+Pode ter 3 estados: Pending, Fulfilled ou Rejected.
+
+const myPromise = new Promise((resolve, reject) => {
+	window.setTimeout(() => {
+		resolve(console.log('Resolvida'));
+	}, 2000);
+});`
+
+await myPromise
+	.then((result) => result + 'passando pelo then')
+	.then((result) => result + 'e agora acabou!')
+	.catch((err) => console.log(err.message));
+
+
+
+
+ASYNC/AWAIT
+
+Funções assíncronas precisam dessas duas palavras chaves.
+Sempre que quiser o resultado da sua promise tem que utilizar a palavra await.
+O resultado de uma promise vai ser outra promise
+
+Pode-se utilizar try..catch
+
+
+
+
+CONSUMINDO APIS
+
+Application Programming Interface
+
+Uma API é uma forma de intermediar os resultados do back-end com o que é aprensentado
+no front-end.
+Você consegue acessá-la por meio de URLs
+
+JSON: JavaScript Object Notation
+
+É muito comum que APIs retornem seus dados no formato .json, portanto precisamos tratar
+desses dados quando recebemos.
+
+
+
+FETCH
+
+Consumindo APIs
+
+fetch(url, options)
+	.then(response => response.json())
+	.then(json => console.log(json))
+//retorna promise
+

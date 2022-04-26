@@ -1,0 +1,41 @@
+## ECMAScript Error
+
+É um erro que ocorrem em tempo de execução.
+Composto por: Mensagem, nome do erro, linha e call stack(pilha de chamadas).
+
+Pode aparecer em consoles do navegador ou em alertas no sistema operacional
+
+
+
+## DOMException
+
+Document Object Model
+Erros relacionados a uma página da web.
+
+String que contém caractere inválido
+São erros relacionados a estrutura da árvore.
+
+## Throw
+
+Ele trata a string como se fosse um erro!
+
+## Try...catch
+
+É uma declaração que dentro do bloco Try, verifica se o pedaço de código tem algum erro para ser tratado
+na função catch. Podendo manipular dentro do catch o erro da maneira que você preferir.
+
+## Finally
+
+É uma instrução que vai ser chamada independente se tem um erro ou não. Executando depois das verificações.
+
+
+## O objeto Error
+
+O erro aceita os parametros (message, fileName, lineNumber). FileName e lineNumber não são padrão. O que normalmente
+as pessoas usam apenas message.
+
+const MeuErro = new Error('Mensagem Inválida');
+throw MeuErro;
+
+O erro também pode ter um nome, depois de declar o objeto, é só uisar MeuErro.name = 'InvalidMessage';
+ 
